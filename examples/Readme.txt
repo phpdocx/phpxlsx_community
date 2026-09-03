@@ -1,0 +1,2 @@
+The samples included in the package use the saveXlsx method to generate the XLSX. This method saves the XLSX output in the file system, the file is not downloaded.
+To generate and download an XLSX, the saveXlsxAndDownload method can be used.

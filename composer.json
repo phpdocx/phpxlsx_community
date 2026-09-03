@@ -1,0 +1,33 @@
+{
+    "name": "phpdocx/phpxlsx_community",
+    "description": "phpxlsx - Create Excel XLSX with PHP",
+    "keywords": [
+        "phpxlsx",
+        "xlsx",
+        "excel",
+        "OOXML",
+        "php"
+    ],
+    "homepage": "https://www.phpxlsx.com",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "NarceaLabs SL"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "Classes/Phpxlsx"
+        ]
+    },
+    "require": {
+        "php": ">=5.6",
+        "ext-dom": "*",
+        "ext-xml": "*",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-zip": "*"
+    }
+}
