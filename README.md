@@ -39,6 +39,21 @@ This loads the library classes automatically so you can use the phpxlsx classes 
 
 The examples folder contains self-contained samples for all the public methods.
 
+For example, to create an XLSX file containing a cell with some styles:
+
+```php
+$xlsx = new Phpxlsx\Create\CreateXlsx();
+
+$content = array(
+    'text' => 'Lorem ipsum dolor sit amet',
+    'bold' => true,
+    'font' => 'Times New Roman',
+);
+$xlsx->addCell($content, 'B2');
+
+$xlsx->saveXlsx('output');
+```
+
 ## Changelog
 
 See CHANGELOG.md for release notes.
